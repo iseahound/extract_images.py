@@ -11,3 +11,6 @@ Some notes:
 * The magic number to be expected is`FF D8 FF E0 00 10 4A 46 49 46 00 01`. 
 * It is not known whether other JPEG streams are accepted, since this one contains the ASCII word `JFIF`. 
 * Likewise, it should be possible for PNG streams to be embedded as well, and therefore extracted. 
+
+Additional research:
+https://github.com/josch/img2pdf - to convert images as-is into PDFs.
